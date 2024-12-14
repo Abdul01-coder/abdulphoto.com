@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+ ul {list-style: none;padding:0px;margin:0px;}
+        ul li {display: block;position: relative;float: left;border:1px solid #000}
+        li ul {display: none;}
+        ul li a {display: block;background: #000;padding: 5px 50px 5px 10px;text-decoration: none;white-space: nowrap;color: #fff;}
+        ul li a:hover {background: #f00;}
+        li:hover ul {display: block; position: absolute;}
+        li:hover li {float: none;}
+        li:hover a {background: #000;}
+        #drop-nav li ul li {border-top: 1px;}
+
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-item {
+    display: inline;
+    margin: 0 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.item {
+    flex: 1 1 200px;
+    background-color: #f4f4f4;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .nav-item {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+}
+
+</style>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Photo Albums</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <ul id="drop-nav">
+            <li><a href="1.html">HOME</a></li>
+            <li><a href="book a shot.html">SERVICES</a>
+        <ul>
+            <li><a href="book a shot.html">Book a shot</a></li>
+        </ul>
+    </li>
+    <li><a href="albums.html">ALBUMS</a>
+    </li>
+    <li><a href="about us.html">ABOUT US</a>
+    </li>
+    </ul>
+    <ul>
+    <li><a href="faqs.html">FAQS</a></li>
+    </ul><br><br><br><br>
+
+
+        <header>
+            <h1>Photo Albums</h1>
+            <p>Explore our collection of stunning photography.</p>
+        </header>
+    
+        <section class="albums">
+            <div class="album">
+                <a href="album1.html">
+                    <img src="images (1).jpg" alt="Album 1 Cover" style="height:200px; width:300px;">
+                    <img src="images (2).jpg" alt="Album 1 Cover" style="height:200px; width:300px;">
+                    <img src="images (3).jpg" alt="Album 1 Cover" style="height:200px; width:300px;">
+                    <img src="download.jpg" alt="Album 1 Cover" style="height:200px; width:300px;">
+                    <img src="images.jpg" alt="Album 1 Cover" style="height:200px; width:300px;">
+                    <h2>Wedding Photography</h2>
+                    <p>Beautiful moments captured from weddings.</p>
+                </a>
+            </div>
+            <div class="album">
+                <a href="album2.html">
+                    <img src="potrait1.jpg" alt="Album 2 Cover" style="height:200px; width:300px;">
+                    <img src="potrait2.jpg" alt="Album 2 Cover" style="height:200px; width:300px;">
+                    <img src="potrait3.jpg" alt="Album 2 Cover" style="height:200px; width:300px;">
+                    <img src="potrait4.jpg" alt="Album 2 Cover" style="height:200px; width:300px;">
+                    <img src="potrait5.png" alt="Album 2 Cover" style="height:200px; width:300px;">
+                    <h2>Portrait Photography</h2>
+                    <p>Professional portraits and headshots.</p>
+                </a>
+            </div>
+            <div class="album">
+                <a href="album3.html">
+                    <img src="event1.jpg" alt="Album 3 Cover"  style="height:200px; width:300px;">
+                    <img src="event2.jpg" alt="Album 3 Cover"  style="height:200px; width:300px;">
+                    <img src="events3.jpg" alt="Album 3 Cover"  style="height:200px; width:300px;">
+                    <img src="events4.jpg" alt="Album 3 Cover"  style="height:200px; width:300px;">
+                    <img src="events5.jpg" alt="Album 3 Cover"  style="height:200px; width:300px;">
+                    <h2>Event Photography</h2>
+                    <p>Memorable moments from various events.</p>
+                </a>
+            </div>
+        </section>
+    
+        <footer>
+            <p>Contact us at <a href="mailto:info@As-salamphotography.com">info@As-salamphotography.com</a></p>
+        </footer>
+    </body>
+    </html>
+    
+</body>
+</html>

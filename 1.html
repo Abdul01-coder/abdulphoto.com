@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+</head>
+<body>
+    <style type="text/css">
+        ul {list-style: none;padding:0px;margin:0px;}
+        ul li {display: block;position: relative;float: left;border:1px solid #000}
+        li ul {display: none;}
+        ul li a {display: block;background: #000;padding: 5px 50px 5px 10px;text-decoration: none;white-space: nowrap;color: #fff;}
+        ul li a:hover {background: #f00;}
+        li:hover ul {display: block; position: absolute;}
+        li:hover li {float: none;}
+        li:hover a {background: #000;}
+        #drop-nav li ul li {border-top: 1px;}
+        body {padding-top: 10px;
+        margin-left: 450px;
+        background-color: white;
+        background-image: url('cam3.webp'); background-size:cover; background-repeat: no-repeat; background-position: center;}
+        
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #4CAF50;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top:350px;
+            margin-left:-400px;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+
+
+        
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+    .nav-item {
+        display: block;
+        margin: 5px 0;
+    }
+
+    img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+}
+
+    </style>
+    </head>
+    <body>
+        <ul id="drop-nav">
+            <li><a href="1.html">HOME</a></li>
+            <li><a href="book a shot.html">SERVICES</a>
+        <ul>
+            <li><a href="book a shot.html">Book a shot</a></li>
+        </ul>
+    </li>
+    <li><a href="albums.html">ALBUMS</a>
+    </li>
+    <li><a href="about us.html">ABOUT US</a>
+    </li>
+    </ul>
+    <ul>
+    <li><a href="faqs.html">FAQS</a></li>
+    </ul>
+    <a href="book a shot.html" class="button">BOOK A SHOT</a>
+
+    <img src="1.png" alt="" style="margin-left:-800px; margin-bottom:300px;">
+    </body>
+    </html>
+</body>
+</html>
